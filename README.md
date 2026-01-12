@@ -1,12 +1,16 @@
 
 # Aspetos interessantes falar
 
-## breve intodução teórica do GIT, explicar o que consiste 
+## Breve intodução teórica do GIT, explicar o que consiste 
 
-É um software de controlo de versões, basicamente serve para registar o progresso do desenvolvimento de trabalhos, com a possibilidade de criar um histórico de alterações feitas no trabalho.
+(...) É um software de controlo de versões, basicamente serve para registar o progresso do desenvolvimento de trabalhos, com a possibilidade de criar um histórico de alterações feitas no trabalho.
+(...)
 
-## Explicar também a estrutura de forma esquematizada de como o git funciona 
+# Explicar também a estrutura de forma esquematizada de como o git funciona 
+<img src="img.png">
+(Não vou usar esta imagem é só para ter aqui)
 
+<br>
 
 # Explicar comandos básicos de GIT sem utilizar github 
 
@@ -24,8 +28,6 @@ GLUA@leitner:/my_repo$ git diff <commit_hash1> <commit_hash2> (o quê que o comm
 
 GLUA@leitner:/my_repo$ git restore .  
 
-
-
 ```
 
 
@@ -37,8 +39,8 @@ GLUA@leitner:/my_repo$ git restore .
 # Criação de um repo no github e ligar o diretório local ao repositório no github
 
 ```
-git remote add origin 
-git remote -v
+GLUA@leitner:/my_repo$ git remote add origin 
+GLUA@leitner:/my_repo$ git remote -v
 ```
 
 # Ou criar um repo e clonar Local
@@ -57,7 +59,7 @@ git remote -v
 ### e para evitar isso, boa prática fazer `git fetch origin` -> `git rebase`
 
 
-# `git restore` 
+## `git restore` 
  
 ## Situação: Estava a trabalhar no meu projeto com o meu colega e por acaso acabo de reparar, que andei para lá a inventar e tornei o trabalho mais confuso do que o que estava, entre essas alterações não consigo voltar a trás, ou pior, estava a eliminar ficheiros auxiliares e sem querer apaguei um ficheiro importante. Com `git restore <nome do ficheiro>` é possível voltar a trás! Ao que estava no último commit
 
@@ -88,9 +90,10 @@ Como o ficheiro tipo markdown é altamente personalizável, existem enúmeras fo
 - Contactos
 - Projetos relevantes (?) 
 
+<br><br>
 
-<br><br><br>
-
+# Por exemplo: 
+<br>
 
 # Hi there, my name is Martim Leitner, I'm studying Computer Engineer at Aveiro's University.
 
@@ -98,10 +101,17 @@ Como o ficheiro tipo markdown é altamente personalizável, existem enúmeras fo
 
 ## Currently I'm working at GLUA in some projects! :D <br> WOW this is one of them!!!!  
 
+<div align="left">
+
+
+## - 🔭 I’m currently working on **GLUA**
+
+## - 💬 Ask me about **git**
+
+## - 📫 How to reach me **leitnermartim@ua.pt**
 <br><br>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
-<div align="left">
 
 # 📊 Stats:
 
@@ -150,30 +160,4 @@ Como o ficheiro tipo markdown é altamente personalizável, existem enúmeras fo
 </div>
 
 <!--Herr Leitner-->
-
-<h1 align="center">Hi 👋, I'm Martim Leitner</h1>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=matleitner&label=Profile%20views&color=0e75b6&style=flat" alt="matleitner" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=matleitner" alt="matleitner" /></a> </p>
-
-## - 🔭 I’m currently working on **GLUA**
-
-## - 💬 Ask me about **git**
-
-## - 📫 How to reach me **leitnermartim@ua.pt**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/leitner_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="leitner_" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=matleitner&show_icons=true&locale=en&layout=compact" alt="matleitner" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=matleitner&show_icons=true&locale=en" alt="matleitner" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=matleitner&" alt="matleitner" /></p>
 
