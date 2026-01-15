@@ -159,7 +159,7 @@ Depois podes clicar **Create Fork**
     
 2. Escolhe um lugar para guardar o trabalho que vais fazer, por exemplo nos Documents ou no Desktop;
 
-3. No gestor de ficheiros do teu computador cria uma diretório (uma pasta) com o nome do Repositório **GIT_workshop** e depois clica no botão direito e clica **Abrir no Terminal**;
+3. No gestor de ficheiros do teu computador, escolhe o diretório (pasta) onde queres que o repositório vá e depois clica no botão direito e clica **Abrir no Terminal**;
 
 3. No terminal cola à frente de `git clone` o que copiaste anteriormente:
     ```bash
