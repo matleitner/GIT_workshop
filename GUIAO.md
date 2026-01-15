@@ -1,4 +1,4 @@
-# Primeiros passos para usar o GIT e o GITHUB como um Profissional
+# Primeiros passos para usar o GIT e o GITHUB como um Profissional!
 
 
 Este guião é dividido em 2 partes, primeira parte mais inicial, com um trabalho mais simples e o 2º com um nível de dificuldade levemente mais avançado. Para treinares e perceberes as artimanhas do Git!    
@@ -21,11 +21,11 @@ Resultado esperado: `git version 2.52.0.1`
 
 2.  Cria uma conta no GITHUB
 
-    > [!IMPORTANT]
-    > Caso não ainda não tenhas uma conta -> https://github.com
+> [!IMPORTANT]
+> Caso não ainda não tenhas uma conta -> https://github.com
 
-    >[!TIP]
-    > Quando já tiveres uma conta entra na tua conta github!
+>[!TIP]
+> Quando já tiveres uma conta entra na tua conta github!
 
 <div id="refazer"></div>
 
@@ -148,7 +148,8 @@ Existe um botão que diz **Fork**!
 
 Depois podes clicar **Create Fork**
 
-> [!NOTE] Quando fazemos um fork basicamente estamos a "copiar" o repositório de outra pessoa neste caso GIT_workshop, para o nosso GitHub quase como se fosse nosso mas não oficialmente.
+> [!NOTE] 
+> Quando fazemos um fork basicamente estamos a "copiar" o repositório de outra pessoa neste caso GIT_workshop, para o nosso GitHub quase como se fosse nosso mas não oficialmente.
 
 
 ## 2. Vamos colocar o Fork que fizemos num repositório local 
@@ -169,7 +170,8 @@ Depois podes clicar **Create Fork**
 
 Agora cabe te a ti, usar a tua criatividade e adicionar um ficheiro com o teu contributo! 
 
-> [!WARNING](Mas não abusem por favor ^_^)
+> [!WARNING]
+> Mas não abusem por favor ^_^
 
 Cria um ficheiro, de texto com o teu nome por exemplo! Com o que quiseres lá dentro.
 
