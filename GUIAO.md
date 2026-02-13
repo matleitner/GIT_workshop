@@ -1,7 +1,12 @@
 # Primeiros passos para usar o GIT e o GITHUB como um Profissional!
 
-
 Este guião é dividido em 2 partes, primeira parte mais inicial, com um trabalho mais simples e o 2º com um nível de dificuldade levemente mais avançado. Para treinares e perceberes as artimanhas do Git!    
+
+## Importante 
+
+Este guião é suposto usarem o terminal, seja em Linux, Windows(recomendado/testado em PowerShell). Ao longo do guião tem em atenção a substituir onde diz por exemplo "oTeuEmail@exemplo.com" pelo teu email da conta do GitHub. 
+
+
 # 1ª Parte (Criar e Configurar o Git e o GitHub)
 
 ## Instala e configura o GIT 
@@ -15,7 +20,7 @@ Este guião é dividido em 2 partes, primeira parte mais inicial, com um trabalh
     - **macOS**: `brew install git`
 
 
-Para verificares que o git foi instalado, abre powershell(windows) terminal(linux), e corre o comando: `git --version`
+Para verificares que o git foi instalado, abre o terminal (powershell para windows), e corre o comando: `git --version`
 
 Resultado esperado: `git version X.Y.Z`
 
@@ -38,21 +43,37 @@ Resultado esperado: `git version X.Y.Z`
     ```
 
 4. Configurar o tipo de autenticação SSH (recomendado):  
-
+    ### Em **LINUX**
     ```bash
     ssh-keygen -t ed25519 -C "teuemail@exemplo.com"
     eval "$(ssh-agent -s)"
     ssh-add ~/.ssh/id_ed25519
     cat ~/.ssh/id_ed25519.pub
     ```
+    
+    ### Em **WINDOWS** 
+    **Abre a power shell em modo administrador:**
+    ```bash
+    ssh-keygen -t ed25519 -C "teuemail@exemplo.com"
+    Get-Service ssh-agent | Set-Service -StartupType Automatic
+    Start-Service ssh-agent
 
-    No GITHUB, vai a **Settings → SSH and GPG keys → New SSH key**
+    ssh-add $env:USERPROFILE\.ssh\id_ed25519
+
+    type $env:USERPROFILE\.ssh\id_ed25519.pub
+    ```
+
+    No GITHUB, vai a **Settings → SSH and GPG keys → New SSH key**, e **cola o output dos comandos anteriores**.
+    Para o GitHub identificar o teu PC.
 
     Verifica se tudo correu bem com: 
     
     ```bash
      ssh -T git@github.com 
      ```
+    (É suposto dizer algo do género conexão estabelecida sucesso)
+
+
 ## Vamos começar a trabalhar com GIT!
 
 ### 1. Cria o teu Repositório local (Usa o *username* que usaste para criar a tua conta no GitHub)
